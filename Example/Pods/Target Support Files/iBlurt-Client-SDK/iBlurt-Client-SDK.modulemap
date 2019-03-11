@@ -1,0 +1,6 @@
+framework module iBlurt_Client_SDK {
+  umbrella header "iBlurt-Client-SDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

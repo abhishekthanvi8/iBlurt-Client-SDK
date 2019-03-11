@@ -1,0 +1,22 @@
+{
+  "name": "iBlurt-Client-SDK",
+  "version": "0.1.0",
+  "summary": "A short description of iBlurt-Client-SDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/abhishekthanvi8/iBlurt-Client-SDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "abhishekthanvi8": "abhishekthanvi8@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/abhishekthanvi8/iBlurt-Client-SDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "iBlurt-Client-SDK/Classes/**/*"
+}

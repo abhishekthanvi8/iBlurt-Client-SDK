@@ -1,0 +1,16 @@
+PODS:
+  - iBlurt-Client-SDK (0.1.0)
+
+DEPENDENCIES:
+  - iBlurt-Client-SDK (from `../`)
+
+EXTERNAL SOURCES:
+  iBlurt-Client-SDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  iBlurt-Client-SDK: 8e28e3d994c4b709289b47f57bd4a77c7a2efe6d
+
+PODFILE CHECKSUM: 3f678ac45efc337a77e80ec555eb662381e66b7e
+
+COCOAPODS: 1.6.0.beta.1

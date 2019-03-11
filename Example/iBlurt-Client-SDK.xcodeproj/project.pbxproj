@@ -43,9 +43,9 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		70EAF1274BE591CA1E18E3F2 /* Pods-iBlurt-Client-SDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iBlurt-Client-SDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-iBlurt-Client-SDK_Tests/Pods-iBlurt-Client-SDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7E98644C40CA18BFA5CD794C /* Pods_iBlurt_Client_SDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iBlurt_Client_SDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8AD0A7F0832DBE746739F5BD /* iBlurt-Client-SDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "iBlurt-Client-SDK.podspec"; path = "../iBlurt-Client-SDK.podspec"; sourceTree = "<group>"; };
-		A53BC3F9BCB5C04831FD7FDF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		C35361B8F86198FF5E927428 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8AD0A7F0832DBE746739F5BD /* iBlurt-Client-SDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "iBlurt-Client-SDK.podspec"; path = "../iBlurt-Client-SDK.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A53BC3F9BCB5C04831FD7FDF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C35361B8F86198FF5E927428 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DD1F91BA3B5FD5DB8002D622 /* Pods-iBlurt-Client-SDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iBlurt-Client-SDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-iBlurt-Client-SDK_Tests/Pods-iBlurt-Client-SDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -147,7 +147,6 @@
 				70EAF1274BE591CA1E18E3F2 /* Pods-iBlurt-Client-SDK_Tests.debug.xcconfig */,
 				DD1F91BA3B5FD5DB8002D622 /* Pods-iBlurt-Client-SDK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
