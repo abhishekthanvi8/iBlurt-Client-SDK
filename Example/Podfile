@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'iBlurt-Client-SDK_Example' do
+  pod 'iBlurt-Client-SDK', :path => '../'
+
+  target 'iBlurt-Client-SDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
