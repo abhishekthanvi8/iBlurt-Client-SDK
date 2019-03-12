@@ -1,5 +1,4 @@
 import XCTest
-import iBlurt-Client-SDK
 
 class Tests: XCTestCase {
     

@@ -1,5 +1,15 @@
 use_frameworks!
 
+#realm db
+pod 'Socket.IO-Client-Swift'
+pod ‘RealmSwift’
+pod 'SKActivityIndicatorView', '~> 0.1.0'
+
+#ratingView
+pod 'Cosmos', '~> 18.0'
+pod 'Alamofire', '~> 5.0.0.beta.1'
+
+
 target 'iBlurt-Client-SDK_Example' do
   pod 'iBlurt-Client-SDK', :path => '../'
 

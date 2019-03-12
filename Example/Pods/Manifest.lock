@@ -1,16 +1,49 @@
 PODS:
+  - Alamofire (5.0.0-beta.3)
+  - Cosmos (18.0.1)
   - iBlurt-Client-SDK (0.1.0)
+  - Realm (3.13.1):
+    - Realm/Headers (= 3.13.1)
+  - Realm/Headers (3.13.1)
+  - RealmSwift (3.13.1):
+    - Realm (= 3.13.1)
+  - SKActivityIndicatorView (0.1.0)
+  - Socket.IO-Client-Swift (14.0.0):
+    - Starscream (~> 3.0.6)
+  - Starscream (3.0.6)
 
 DEPENDENCIES:
+  - Alamofire (~> 5.0.0.beta.1)
+  - Cosmos (~> 18.0)
   - iBlurt-Client-SDK (from `../`)
+  - RealmSwift
+  - SKActivityIndicatorView (~> 0.1.0)
+  - Socket.IO-Client-Swift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Cosmos
+    - Realm
+    - RealmSwift
+    - SKActivityIndicatorView
+    - Socket.IO-Client-Swift
+    - Starscream
 
 EXTERNAL SOURCES:
   iBlurt-Client-SDK:
     :path: "../"
 
 SPEC CHECKSUMS:
-  iBlurt-Client-SDK: 8e28e3d994c4b709289b47f57bd4a77c7a2efe6d
+  Alamofire: 50d6fa7e8cbe7f84559e86ab641ffd029db655f8
+  Cosmos: 7dfaa3f52584ca5f94ab74b5c2e264019cc9f7f5
+  iBlurt-Client-SDK: 6943b350c5a02e6e41e6adfe2303c2a64c737346
+  Realm: 50071da38fe079e0735e47c9f2eae738c68c5996
+  RealmSwift: 8a1e6a02b7a08cd17a31e3115143fb69fe5f3fb9
+  SKActivityIndicatorView: f46936f760d33eb8235333242269bf01cc9248ae
+  Socket.IO-Client-Swift: 21e6a8a23a7d367d5ddfab6cbbd3c679cf3c25d6
+  Starscream: ef3ece99d765eeccb67de105bfa143f929026cf5
 
-PODFILE CHECKSUM: 3f678ac45efc337a77e80ec555eb662381e66b7e
+PODFILE CHECKSUM: 3b43111f0312d89e82ce42cd4d163a7c15986f60
 
 COCOAPODS: 1.6.0.beta.1
